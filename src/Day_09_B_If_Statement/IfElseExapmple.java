@@ -3,8 +3,7 @@ package Day_09_B_If_Statement;
 public class IfElseExapmple {
     public static void main(String[] args) {
 
-    }
-    int point = 75;
+        int point = 75;
         if (point >= 75) {
         System.out.println("You pass the exam");
     }
