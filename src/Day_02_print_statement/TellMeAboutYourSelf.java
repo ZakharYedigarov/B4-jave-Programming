@@ -1,4 +1,4 @@
-package Day02_print_statement;
+package Day_02_print_statement;
 
 public class TellMeAboutYourSelf {
 
