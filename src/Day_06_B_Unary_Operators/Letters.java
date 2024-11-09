@@ -1,4 +1,4 @@
-package Day_06_b_unary_operators;
+package Day_06_B_Unary_Operators;
 
 public class Letters {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Day_09_a_Scanner;
+package Day_09_A_Scanner;
 import java.util.Scanner;
 public class UsingNextLine {
     public static void main(String[] args) {

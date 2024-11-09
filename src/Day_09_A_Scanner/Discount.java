@@ -1,4 +1,4 @@
-package Day_09_a_Scanner;
+package Day_09_A_Scanner;
 
 public class Discount {
     public static void main(String[] args) {
