@@ -19,7 +19,7 @@ public class IfWithOutBracket {public static void main(String[] args) {
         System.out.println("loop-1");
     } else
         System.out.println("loop-2");//belongs to else
-    System.out.println("loop-3"); // is a stand alone print stmt
+    System.out.println("loop-3"); // is a standalone print stmt
 
 
     if (5 > 0)
