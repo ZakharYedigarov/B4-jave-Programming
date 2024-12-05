@@ -18,5 +18,7 @@ public class Angles {
         System.out.println("It is triangle: " + isTriangle);
         System.out.println("It is a circle: " + isCircle);
 
+
+
     }
 }
