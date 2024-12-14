@@ -96,4 +96,70 @@ public class ArrayUtil {
 
         return total;
     }
+    /**
+     * This method returns int array with given int element added at the end of the given int array
+     * @param arr given int array
+     * @param num given int element
+     * @returns int array
+     */
+    public static int [] addElemInArr (int [] arr, int num) {
+
+        int [] addedArr = Arrays.copyOf(arr, arr.length + 1); // {1, 2, 3, 4, 5, _ };
+        addedArr [addedArr.length - 1] = num;
+
+        return addedArr;
+    }
+
+
+    /**
+     * This method returns int array with given int var args elements added at the end of the given int array
+     * @param arr given int array
+     * @param arr2 given int var args elements
+     * @returns int array
+     */
+    public static int [] addElemInArray (int [] arr, int ... arr2 ) {
+
+        int [] addedAr = Arrays.copyOf(arr, arr.length + arr2.length);  // {1, 2, 3, 4, 5,  _, _, _,.......}
+
+
+        for (int i = arr.length, j = 0; i < addedAr.length; i++, j++) {   // i < 9  --- >  i = 5, j = 0;  i < 9; i++, j++
+            addedAr[i] = arr2[j];
+        }
+
+        return addedAr;
+    }
+
+    /**
+     * This method returns String array with given String element added at the end of the given String Array
+     * @param arr given String Array
+     * @param stringElem given String
+     * @return Added String Array
+     */
+    public static String [] addElemInArr (String [] arr, String stringElem) {
+
+        String [] addedArr = Arrays.copyOf(arr, arr.length + 1);
+        addedArr [addedArr.length - 1] = stringElem;
+
+        return addedArr;
+    }
+
+    /**
+     * This method returns String array with given String Array added at the end of the given String Array
+     * @param arr given String Array
+     * @param arr2 given String Array
+     * @return Added String Array
+     */
+    public static String [] addElemInArray (String [] arr, String ... arr2 ) {
+
+        String [] addedAr = Arrays.copyOf(arr, arr.length + arr2.length);
+
+
+        for (int i = arr.length, j = 0; i < addedAr.length; i++, j++) {
+            addedAr[i] = arr2[j];
+        }
+
+        return addedAr;
+    }
+
+
 }
