@@ -1,4 +1,4 @@
-package Day_32_Custom_Classes;
+package day32_custom_classes;
 
 // Template Class - we set the instructions how the Object of this class will behave
 public class Phone {
