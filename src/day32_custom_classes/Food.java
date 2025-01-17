@@ -1,4 +1,4 @@
-package Day_32_Custom_Classes;
+package day32_custom_classes;
 
 public class Food {
     String name;

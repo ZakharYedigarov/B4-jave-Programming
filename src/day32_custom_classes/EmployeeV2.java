@@ -1,4 +1,4 @@
-package Day_32_Custom_Classes;
+package day32_custom_classes;
 
 public class EmployeeV2 {
     // name, id, job title, salary
